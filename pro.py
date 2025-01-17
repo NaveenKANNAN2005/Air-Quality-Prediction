@@ -12,7 +12,7 @@ import seaborn as sns
 st.title("Air Quality Prediction - Model Evaluation")
 
 
-uploaded_file = st.file_uploader("E:/Air-Quality-Prediction/Data/Real-Data/Real_Combine.csv", type=["csv"])
+uploaded_file = st.file_uploader("Real_Combine.csv", type=["csv"])
 
 if uploaded_file is not None:
     
