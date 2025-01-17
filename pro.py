@@ -16,7 +16,7 @@ uploaded_file = st.file_uploader("E:/Air-Quality-Prediction/Data/Real-Data/Real_
 
 if uploaded_file is not None:
     
-    df = pd.read_csv(uploaded_file)
+    //df = pd.read_csv(uploaded_file)
     st.write("### Dataset Preview")
     st.dataframe(df.head())
     
